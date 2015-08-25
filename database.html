@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"/>
+
+<title>Database</title>
+<link href="website_styles.css" rel="stylesheet" type="text/css">
+<link href="HTML5_twoColFixRtHdr.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="container">
+  
+  <header>
+    <a href="index.html"><img src="assets/banner-new.png" alt="banner"></a>
+	<hr class="new-line">
+  </header>
+  
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="database.html">Database</a></li>
+    
+      <li></li>
+    </ul>
+    <aside>
+      <p><br>
+SQL stands for Structured Query Language. It is a database programming language that acts a means of communication between two other programs such as a website and a database<br>
+       
+        <br>
+      </p>
+    </aside>
+    <!-- end .sidebar1 -->
+  </div>
+  
+  <article class="content">
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="designing-html.html" class="MenuBarItemSubmenu">Designing</a>
+      <ul>
+        <li><a href="designing-html.html">HTML</a></li>
+        <li><a href="designing-css.html">CSS</a></li>
+      </ul>
+    </li>
+    <li><a href="programming.html" class="MenuBarItemSubmenu">Programming</a>
+      <ul>
+        <li><a href="programming.html">Basics</a></li>
+        <li><a href="programming-oops.html">OOPS</a></li>
+        <li><a href="programming-class.html">Classes</a></li>
+      </ul>
+    </li>
+    <li><a href="database.html">Database</a></li>
+    <li><a href="contact-us.html">Contact Us</a></li>
+  </ul>
+  
+  <section>
+  <br>
+  <br>
+<table width="609" height="373" border="0"  border-color="#FFFFFF" align="center" padding="10" background="assets/up_background.png">
+  
+  <tr>
+<br>
+
+  
+  <td><h1> <br>
+<br>
+SQL is a standardized query language for requesting information from a database. Following are some basic SQL commands: </h1></td>
+  
+  </tr>
+    <tr>
+      <td> <h2>SQL SELECT Syntax<br></h2>
+     <h3> SELECT column_name,column_name<br>
+      FROM table_name;</h3>
+  <p> <em>table-name</em> is the name of the table from which the information is retrieved.<br>
+       <em>column_list</em> includes one or more columns from which data is retrieved.<br>
+The code within the brackets is optional.
+   </p>
+    
+     </td>
+    <tr>
+      <td> <h2>SQL WHERE Syntax<br></h2>
+     <h3>      SELECT column_name,column_name<br>
+      
+      FROM table_name<br>
+      
+      WHERE column_name operator value;</h3>
+   <p>  <em>column or expression</em> - Is the column of a table or a expression<br>
+<em>comparison-operator</em> - operators like = &lt; &gt; etc.<br><em>value</em> - Any user value or a column name for comparison</p>
+   <p>&nbsp;</p></td>
+    
+      </tr>
+    <tr>
+      <td><p>SQL Alias Syntax</p>
+        <p>SELECT first_name AS Name FROM student_details;<br>
+          or<br>
+          SELECT first_name Name FROM student_details;<br>
+        </p>
+        <p>In the above query, the column first_name is given a alias as 'name'. So when the result is displayed the column name appears as 'Name' instead of 'first_name'</p>
+      <h2><br></h2></td>
+    
+    </tr>
+</table>
+  <br>
+<br>
+</section>
+ </article>
+<footer>
+    
+    <div class="social-media">
+
+  <p>Follow Us On</p>
+  <div id="social-share-buttons">
+    
+  <!-- Facebook -->
+  <a href="http://www.facebook.com/" target="_blank"><img src="assets/social/facebook.png" alt="Facebook" /></a>
+    
+  <!-- Twitter -->
+  <a href="http://twitter.com/" target="_blank"><img src="assets/social/twitter.png" alt="Twitter" /></a>
+    
+  <!-- Google+ -->
+  <a href="https://plus.google.com/" target="_blank"><img src="assets/social/googleplus.png" alt="Google" /></a>
+    
+  <!-- LinkedIn -->
+  <a href="http://www.linkedin.com/" target="_blank"><img src="assets/social/linkedin.png" alt="LinkedIn" /></a>
+    
+    
+</div>
+
+  </div>
+  
+    
+    <p class="copyright-footer">© 2014 Geek Point</p>
+
+
+  </footer>
+<!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
